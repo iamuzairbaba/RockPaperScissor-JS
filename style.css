@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #decba4, #3e5151);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px #3e5151;
+}
+
+.heading{
+    color: #3b3a30;
+    text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+img{
+    height: 50px;
+}
+.move-button{
+    background-color: transparent;
+    border: 2px solid #36486b;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.js-result{
+    color: #36486b;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.js-moves{
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    padding: 5px;
+}
+
+.js-score{
+    margin-top: 50px;
+    font-size: 25px;
+    color: #c0ded9;
+}
+
+.reset-button{
+    background-color: #4040a1;
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
